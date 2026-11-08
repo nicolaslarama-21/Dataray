@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DataRayLaunchBase" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/dataray_navigation_background</item>
+        <item name="android:windowLightStatusBar">@bool/dataray_light_system_bars</item>
+        <item name="android:windowLightNavigationBar">@bool/dataray_light_system_bars</item>
+    </style>
+    <style name="DataRayNormalBase" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/dataray_launch_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/dataray_navigation_background</item>
+        <item name="android:windowLightStatusBar">@bool/dataray_light_system_bars</item>
+        <item name="android:windowLightNavigationBar">@bool/dataray_light_system_bars</item>
+    </style>
+    <style name="LaunchTheme" parent="DataRayLaunchBase" />
+    <style name="NormalTheme" parent="DataRayNormalBase" />
+</resources>

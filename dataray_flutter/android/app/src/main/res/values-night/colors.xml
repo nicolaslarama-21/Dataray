@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dataray_launch_background">#0F1825</color>
+    <color name="dataray_navigation_background">#172333</color>
+    <bool name="dataray_light_system_bars">false</bool>
+</resources>
