@@ -14,8 +14,8 @@ constexpr uint8_t photodiode = 34; // ADC1, conditioned BPW34 output, 0..3.3 V.
 constexpr uint8_t drawingLaser = 26;
 constexpr uint8_t servoX = 18;
 constexpr uint8_t servoY = 19;
-constexpr int threshold = 1800;
-constexpr int hysteresis = 80;
+constexpr int threshold = 121;
+constexpr int hysteresis = 10;
 constexpr bool lightRaisesAdc = true;
 constexpr uint32_t bitUs = 10000; // 100 bit/s; generous timing for a first prototype.
 constexpr float xMin = 80, xMax = 100, yMin = 80, yMax = 100;
